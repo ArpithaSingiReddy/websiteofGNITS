@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+  body{
+  background-image:url('https://static.zollege.in/public/college_data/images/appImage/1623743056Entrance.jpg?tr=h-250,w-400,c-force');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1{
+    text-align:center;
+    color:black;
+    padding:5%;
+    text-decoration:underline;
+    text-decoration-color:brown;
+    font-family:Times New Roman;
+    background-color:tomato;
+  }
+  .link{
+    color:red;
+    margin:10%;
+    font-size:15px;
+    font-family:Arial;
+  }
+  .link1{
+     color:red;
+    margin:20%;
+    font-size:15px;
+    font-family:Arial;
+    
+  }
+  .link2{
+     color:red;
+    font-size:15px;
+    font-family:Arial;
+    margin:35%;
+    
+  }
+  ul {
+  border:1px solid #555;
+  margin: 10%;
+  padding: 100;
+  width: 250px;
+  background-color: #d69169;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size:15px;
+  font-family:monospace;
+  border-bottom:1px solid #555;
+}
+
+
+li a:hover {
+  background-color: #555;
+  color: white;
+  font-size:25px;
+}
+  a:hover{
+    background-color: #555;
+  color: white;
+  font-size:25px;
+  }
+  p{
+    color: brown;
+    background-color:none;
+    font-size:25px;
+    font-family:monospace;
+    border:10px solid #5e5956;
+    margin:10%
+    padding:5%;
+  }
+  .dropbtn {
+  background-color: #4c5caf;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: orange;
+  min-width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: pink}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+</head>
+
+  
+<body>
+  <h1>G.NARAYANAMMA INSTITUTE OF TECHNOLOGY AND SCIENCE</h1>
+  
+<div class="dropdown">
+  <button class="dropbtn">About</button>
+  <div class="dropdown-content">
+  <a href="https://www.gnits.ac.in/why-gnits/">Why GNITS</a>
+  <a href="https://www.gnits.ac.in/why-gnits/">Academics</a>
+  <a href="https://www.gnits.ac.in/about-us/gnits-highlights/">Awards And Certificates</a>
+  </div>
+</div></br></br></br></br>
+  <a class="link"href="http://43.225.26.107/"target="-blank">BtechResults</a>
+  </br>
+  <a class="link1"href="https://gnits.ac.in/admissions/"target="-blank">Btech and Mtech Admissions</a></br>
+  <a class="link2"href="https://www.gnits.ac.in/placement-highlights/"target="-blank">Placements Highlights</a>
+  </br></br></br></br></br>
+  
+<ul>
+  <li><a href="https://www.gnits.ac.in/about-us/"target="-blank"><b>About us</b></a></li>
+  <li><a href="https://gnits.ac.in/more-events/"target="-blank"><b>Recent Events</b></a></li>
+  <li><a href="https://gnits.ac.in/news-and-events/"target="-blank"><b>News And Events</b></a></li>
+  <li><a href="https://gnits.ac.in/i-b-tech-i-semester-2021-updates/"target="-blank"><b>1<sup>st</sup>Btech Updates</b></a></li>
+</ul>
+  <p>Are you a student if yes please fill he following details</br>1.what is your EAMCET rank?<input type="text"/></br>
+2.Are you intrested in joinind our college?</br><input type="radio">yes</inputtype></br><input type="radio">No</inputtype></br>3.what are the courses you are intrested in?</br>
+  <input type="checkbox">CSE</inputtype></br><input type="checkbox">IT</inputtype></br><input type="checkbox">EEE</inputtype></br><input type="checkbox">ECE</inputtype></br><input type="checkbox">OTHERS</inputtype></br></br>4.What is the reason of choosing our college?</br><input type="text"/></br></br><button onclick="#">SUMBIT</button></p>
+  
+  <script src="script.js"></script>
+  
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
